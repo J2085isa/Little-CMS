@@ -1,2 +1,28 @@
 
  Please see the documentation in doc folder
+SISTEMA DE SEGURIDAD CUÁNTICA "Q-SECURE NET AUTOUPDATE"
+ 
+Integración total con Q-Unify Core | API de automatización de actualización en red
+ 
+ 
+ 
+1. ESTRUCTURA DEL MÓDULO
+ 
+Incluido como subdirectorio en  q-unify-core/src/q-secure-net/ 
+Componentes clave:
+ 
+-  q_secure_net_api.py : API principal de seguridad y actualización cuántica
+​
+-  quantum_network_protocol.py : Protocolo de transmisión seguro en red
+​
+-  auto_update_manager.py : Gestor automatizado de actualizaciones
+​
+-  q_secure_config.toml : Archivo de configuración de red
+​
+-  drivers/ : Controladores para adaptación a diferentes redes
+ 
+ 
+ 
+2. CÓDIGO FUENTE DEL SISTEMA DE SEGURIDAD
+ 
+2.1 API PRINCIPAL ( q_secure_net_api.py )
